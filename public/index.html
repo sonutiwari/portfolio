@@ -10,16 +10,22 @@
 </head>
 <body>
     <header id="resume_header">
-        <nav id="resume_navigation">
-            <ul class="horizontal-list text-center">
-                <li><a class="nav-anchor" href="#">Home</a></li>
-                <li><a class="nav-anchor"  href="#about_section">About</a></li>
-                <li><a class="nav-anchor"  href="#skills_section">Skills</a></li>
-                <li><a class="nav-anchor"  href="#experience_section">Experience</a></li>
-                <li><a class="nav-anchor"  href="#education_section">Education</a></li>
-                <li><a class="nav-anchor"  href="#portfolio_section">Portfolio</a></li>
-                <li><a class="nav-anchor"  href="#contact_section">Contact</a></li>
-            </ul>
+        <nav id="resume_navigation" role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="horizontal-list text-center" id="menu">
+                    <a class="nav-anchor" href="#"><li>Home</li></a>
+                    <a class="nav-anchor"  href="#about_section"><li>About</li></a>
+                    <a class="nav-anchor"  href="#skills_section"><li>Skills</li></a>
+                    <a class="nav-anchor"  href="#experience_section"><li>Experience</li></a>
+                    <a class="nav-anchor"  href="#education_section"><li>Education</li></a>
+                    <a class="nav-anchor"  href="#portfolio_section"><li>Portfolio</li></a>
+                    <a class="nav-anchor"  href="#contact_section"><li>Contact</li></a>
+                </ul>
+            </div>
         </nav>
         <h1 id="name-resume" class="text-center">Sonu Tiwari</h1>
         <ul class="text-center horizontal-list">
@@ -220,7 +226,7 @@
                             <label>Email</label>
                         </div>
                         <div class="group">      
-                            <textarea rows="3" cols="90"></textarea>
+                            <textarea class="textarea"></textarea>
                             <span class="highlight"></span>
                             <span class="bar"></span>
                             <label>Your comment</label>
